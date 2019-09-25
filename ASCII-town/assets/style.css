@@ -6,24 +6,8 @@
 body {
   font-family: monospace;
   color:black;
+  font-size: 12px;
 }
-
-body[font="space-mono"] {
-  font-family: 'Space Mono', monospace;
-}
-
-body[font="roboto-mono"] {
-  font-family: 'Roboto Mono', monospace;
-}
-
-body[font="ibm-plex-mono"] {
-  font-family: 'IBM Plex Mono', monospace;
-}
-
-body[font="nova-mono"] {
-  font-family: 'Nova Mono', monospace;
-}
-
 
 .house {
   float: left;
@@ -33,10 +17,13 @@ body[font="nova-mono"] {
 a {
   color: #ff5252;
   text-decoration: none;
+  transition: .2s all;
+  transform: scale(1);
 }
 a:hover {
-  color: #ff5252;
-  text-decoration: none;
+  transition: .2s all;
+  display: block;
+  transform: scale(1.02);
 }
 
 /* nighttime */
