@@ -9,6 +9,10 @@ body {
   font-size: 12px;
 }
 
+#intro a:hover {
+  transform: scale(1);
+}
+
 .house {
   float: left;
   margin: 20px;
